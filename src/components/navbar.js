@@ -12,11 +12,10 @@ export default function Navbar(){
             <img className="logo" src={require("../assets/images/Logo.png")} alt="Logo" width="100" height="100"/>
 
             <div className={ `${isOpen?"nav-items open":"nav-items"}`  }>
-                <a href="/#">Inicio</a>
-                <a href="/#">Proyectos</a>
-                <a href="/#">Integrantes</a>
-                <a href="/#">Contacto</a>
-              
+                <Link to="/">Inicio</Link>
+                <Link to="projects">Proyectos</Link>
+                <Link to="members">Integrantes</Link>
+                <Link to="contact">Contacto</Link> 
             </div>
 
             <div className={ `${isOpen?"nav-toggle open":"nav-toggle"}`  } onClick={() => setIsOpen(!isOpen)}>
