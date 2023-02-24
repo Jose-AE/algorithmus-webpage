@@ -7,8 +7,9 @@ export default function Navbar(){
 
     const [isOpen, setIsOpen] = useState(false)
 
+
     return(
-        <div className="navbar">
+        <div className={ `${isOpen?"navbar open":"navbar"}`  }>
             <img className="logo" src={require("../assets/images/Logo.png")} alt="Logo" width="100" height="100"/>
 
             <div className={ `${isOpen?"nav-items open":"nav-items"}`  }>
@@ -18,7 +19,7 @@ export default function Navbar(){
                 <Link to="contact" onClick={() => setIsOpen(false)}>Contacto</Link> 
             </div>
 
-            <div className={ `${isOpen?"nav-toggle open":"nav-toggle"}`  } onClick={() => setIsOpen(!isOpen)}>
+            <div className={ `${isOpen?"nav-toggle open":"nav-toggle"}`  } onClick={() => {setIsOpen(!isOpen); window.scrollTo(0, 0)  }}>
                 <div className="bar"></div>
             </div>
                 
