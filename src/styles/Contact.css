@@ -1,0 +1,18 @@
+.contact-card{
+    margin: 4rem 2rem;
+
+}
+
+.contact-card h1{
+
+    font-family: monospace;
+    font-size: 3em;
+}
+
+@media screen and (max-width:800px) {
+    .contact-card h1{
+        
+        font-family: monospace;
+        font-size: 1.5em;
+    }
+}

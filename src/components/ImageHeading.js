@@ -13,7 +13,7 @@ export default function ImageHeading(props){
                 <img alt="Image" src={props.img}/>
             
                 <div className="img-heading-text">
-                    <h1 className="test">{props.title}</h1>
+                    <h1>{props.title}</h1>
                     
                 </div>
 

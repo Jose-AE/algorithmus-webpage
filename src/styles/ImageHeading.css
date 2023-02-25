@@ -39,6 +39,14 @@ img{
 }
 
 
+@media screen and (max-width: 850px) {
+  .img-heading-text h1{
+    font-size: 2rem;
+
+  }
+
+}
+
 
 @keyframes t{
 from {background-size:0 200%}

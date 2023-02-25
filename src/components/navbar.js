@@ -17,10 +17,10 @@ export default function Navbar(){
             </div>
 
             <ul className={isOpen?"nav-menu open":"nav-menu"}>
-                <li><Link to="/" onClick={() => setIsOpen(false)}><i class="fa-solid fa-house"></i>Inicio</Link></li>
-                <li><Link to="projects" onClick={() => setIsOpen(false)}><i class="fa-solid fa-list-check"></i>Proyectos</Link></li>
-                <li><Link to="members" onClick={() => setIsOpen(false)}><i class="fa-solid fa-user"></i>Integrantes</Link></li>
-                <li><Link to="contact" onClick={() => setIsOpen(false)}><i class="fa-solid fa-phone"></i>Contacto</Link></li>
+                <li><Link to="/" onClick={() => {setIsOpen(false); window.scrollTo(0,0)}}><i class="fa-solid fa-house"></i>Inicio</Link></li>
+                <li><Link to="projects" onClick={() => {setIsOpen(false); window.scrollTo(0,0)}}><i class="fa-solid fa-list-check"></i>Proyectos</Link></li>
+                <li><Link to="members" onClick={() => {setIsOpen(false); window.scrollTo(0,0)}}><i class="fa-solid fa-user"></i>Integrantes</Link></li>
+                <li><Link to="contact" onClick={() => {setIsOpen(false); window.scrollTo(0,0)}}><i class="fa-solid fa-phone"></i>Contacto</Link></li>
 
             </ul>
         </nav>
