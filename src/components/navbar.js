@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import "../styles/navbar.css"
+import "../styles/Navbar.css"
 import { Link } from "react-router-dom";
 
 export default function Navbar(){
@@ -9,24 +9,21 @@ export default function Navbar(){
 
 
     return(
-        <div className={ `${isOpen?"navbar open":"navbar"}`  }>
-            <img className="logo" src={require("../assets/images/Logo.png")} alt="Logo" width="100" height="100"/>
-
-            <div className={ `${isOpen?"nav-items open":"nav-items"}`  }>
-                <Link to="/" onClick={() => setIsOpen(false)}>Inicio</Link>
-                <Link to="projects" onClick={() => setIsOpen(false)}>Proyectos</Link>
-                <Link to="members" onClick={() => setIsOpen(false)}>Integrantes</Link>
-                <Link to="contact" onClick={() => setIsOpen(false)}>Contacto</Link> 
-            </div>
-
-            <div className={ `${isOpen?"nav-toggle open":"nav-toggle"}`  } onClick={() => {setIsOpen(!isOpen); window.scrollTo(0, 0)  }}>
-                <div className="bar"></div>
-            </div>
-                
+        <nav className="navbar-items" >
+            <h1 className="navbar-icon"><i class="fa-solid fa-code"></i>Algorithmus</h1>
             
-        </div>
+            <div className="menu-icon" onClick={()=>setIsOpen(!isOpen)}>
+                <i className={isOpen?"fas fa-times":"fas fa-bars"}></i>
+            </div>
+
+            <ul className={isOpen?"nav-menu open":"nav-menu"}>
+                <li><Link to="/" onClick={() => setIsOpen(false)}><i class="fa-solid fa-house"></i>Inicio</Link></li>
+                <li><Link to="projects" onClick={() => setIsOpen(false)}><i class="fa-solid fa-list-check"></i>Proyectos</Link></li>
+                <li><Link to="members" onClick={() => setIsOpen(false)}><i class="fa-solid fa-user"></i>Integrantes</Link></li>
+                <li><Link to="contact" onClick={() => setIsOpen(false)}><i class="fa-solid fa-phone"></i>Contacto</Link></li>
+
+            </ul>
+        </nav>
         
-
-
     );
 }

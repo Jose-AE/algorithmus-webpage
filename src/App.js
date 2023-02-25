@@ -1,11 +1,13 @@
 import { Route, Routes } from 'react-router-dom';
+import Footer from './components/Footer';
 
-import Navbar from './components/navbar';
+import Navbar from './components/Navbar';
+import ContactPage from './pages/contactPage';
+import HomePage from './pages/homePage';
+import MembersPage from './pages/membersPage';
+import ProjectsPage from './pages/projectsPage';
 
-import Home from "./pages/home"
-import Projects from "./pages/projects"
-import Members from "./pages/members"
-import Contact from "./pages/contact"
+
 
 function App() {
   return (
@@ -13,11 +15,13 @@ function App() {
       <Navbar/>
       
       <Routes>
-        <Route path='/' element= {<Home/>}/>
-        <Route path='projects' element= {<Projects/>}/>
-        <Route path='members' element= {<Members/>}/>
-        <Route path='contact' element= {<Contact/>}/>
+        <Route path='/' element= {<HomePage/>}/>
+        <Route path='projects' element= {<ProjectsPage/>}/>
+        <Route path='members' element= {<MembersPage/>}/>
+        <Route path='contact' element= {<ContactPage/>}/>
       </Routes>
+
+      <Footer></Footer>
     </>
     
   );
