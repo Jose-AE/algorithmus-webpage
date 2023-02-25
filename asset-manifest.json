@@ -1,24 +1,29 @@
 {
   "files": {
-    "main.css": "/algorithmus-webpage/static/css/main.b96426ac.css",
-    "main.js": "/algorithmus-webpage/static/js/main.d83456ac.js",
+    "main.css": "/algorithmus-webpage/static/css/main.6c30b9f5.css",
+    "main.js": "/algorithmus-webpage/static/js/main.9e133461.js",
     "static/js/787.9f74c107.chunk.js": "/algorithmus-webpage/static/js/787.9f74c107.chunk.js",
     "static/media/CodeBG.jpg": "/algorithmus-webpage/static/media/CodeBG.0172d1898fa4de6dc10c.jpg",
     "static/media/ScreenCode.jpg": "/algorithmus-webpage/static/media/ScreenCode.7022bb7ca48d6b26ab4f.jpg",
+    "static/media/3.jpg": "/algorithmus-webpage/static/media/3.54ad562f73d0a7629a1d.jpg",
     "static/media/Pokefan.png": "/algorithmus-webpage/static/media/Pokefan.5e528d21b59eea4f1a84.png",
     "static/media/Pedro.png": "/algorithmus-webpage/static/media/Pedro.a586524609bb2fc3dcae.png",
+    "static/media/2.jpg": "/algorithmus-webpage/static/media/2.4c80848e09a9da447330.jpg",
     "static/media/Edson.png": "/algorithmus-webpage/static/media/Edson.485bcc4434fd0b188cbe.png",
     "static/media/JoseLuis.png": "/algorithmus-webpage/static/media/JoseLuis.06529bd7246e79b909d2.png",
+    "static/media/1.jpg": "/algorithmus-webpage/static/media/1.b13cf13799ad8921a723.jpg",
     "static/media/Osmar.jpg": "/algorithmus-webpage/static/media/Osmar.9cdcc3013e43c2fb3f80.jpg",
     "static/media/Jero.jpg": "/algorithmus-webpage/static/media/Jero.6166c421616053a27603.jpg",
+    "static/media/PCcode.jpeg": "/algorithmus-webpage/static/media/PCcode.07ab2fda75b291261692.jpeg",
     "static/media/Carlos.jpg": "/algorithmus-webpage/static/media/Carlos.6defedc0f24e52bd6fdc.jpg",
+    "static/media/4.jpg": "/algorithmus-webpage/static/media/4.0ac238b03ecec99b8670.jpg",
     "index.html": "/algorithmus-webpage/index.html",
-    "main.b96426ac.css.map": "/algorithmus-webpage/static/css/main.b96426ac.css.map",
-    "main.d83456ac.js.map": "/algorithmus-webpage/static/js/main.d83456ac.js.map",
+    "main.6c30b9f5.css.map": "/algorithmus-webpage/static/css/main.6c30b9f5.css.map",
+    "main.9e133461.js.map": "/algorithmus-webpage/static/js/main.9e133461.js.map",
     "787.9f74c107.chunk.js.map": "/algorithmus-webpage/static/js/787.9f74c107.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b96426ac.css",
-    "static/js/main.d83456ac.js"
+    "static/css/main.6c30b9f5.css",
+    "static/js/main.9e133461.js"
   ]
 }
