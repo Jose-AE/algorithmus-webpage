@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/algorithmus-webpage/static/css/main.2a4174c5.css",
-    "main.js": "/algorithmus-webpage/static/js/main.2c81d498.js",
+    "main.css": "/algorithmus-webpage/static/css/main.b96426ac.css",
+    "main.js": "/algorithmus-webpage/static/js/main.d83456ac.js",
     "static/js/787.9f74c107.chunk.js": "/algorithmus-webpage/static/js/787.9f74c107.chunk.js",
-    "static/media/Logo.png": "/algorithmus-webpage/static/media/Logo.299f48390be1422b9fb2.png",
+    "static/media/CodeBG.jpg": "/algorithmus-webpage/static/media/CodeBG.0172d1898fa4de6dc10c.jpg",
+    "static/media/ScreenCode.jpg": "/algorithmus-webpage/static/media/ScreenCode.7022bb7ca48d6b26ab4f.jpg",
+    "static/media/Pokefan.png": "/algorithmus-webpage/static/media/Pokefan.5e528d21b59eea4f1a84.png",
+    "static/media/Pedro.png": "/algorithmus-webpage/static/media/Pedro.a586524609bb2fc3dcae.png",
+    "static/media/Edson.png": "/algorithmus-webpage/static/media/Edson.485bcc4434fd0b188cbe.png",
+    "static/media/JoseLuis.png": "/algorithmus-webpage/static/media/JoseLuis.06529bd7246e79b909d2.png",
+    "static/media/Osmar.jpg": "/algorithmus-webpage/static/media/Osmar.9cdcc3013e43c2fb3f80.jpg",
+    "static/media/Jero.jpg": "/algorithmus-webpage/static/media/Jero.6166c421616053a27603.jpg",
+    "static/media/Carlos.jpg": "/algorithmus-webpage/static/media/Carlos.6defedc0f24e52bd6fdc.jpg",
     "index.html": "/algorithmus-webpage/index.html",
-    "main.2a4174c5.css.map": "/algorithmus-webpage/static/css/main.2a4174c5.css.map",
-    "main.2c81d498.js.map": "/algorithmus-webpage/static/js/main.2c81d498.js.map",
+    "main.b96426ac.css.map": "/algorithmus-webpage/static/css/main.b96426ac.css.map",
+    "main.d83456ac.js.map": "/algorithmus-webpage/static/js/main.d83456ac.js.map",
     "787.9f74c107.chunk.js.map": "/algorithmus-webpage/static/js/787.9f74c107.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a4174c5.css",
-    "static/js/main.2c81d498.js"
+    "static/css/main.b96426ac.css",
+    "static/js/main.d83456ac.js"
   ]
 }
